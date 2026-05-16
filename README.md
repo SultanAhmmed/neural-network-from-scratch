@@ -1,8 +1,13 @@
 # 🧠 Neural Network from Scratch
 
-A fully functional 2-layer neural network built using **only NumPy and Pandas** — no PyTorch, no TensorFlow, no shortcuts. Trained on the MNIST handwritten digit dataset.
+A fully functional 2-layer neural network built using **only NumPy and Pandas**, but no PyTorch, no TensorFlow, no shortcuts. Trained on the MNIST handwritten digit dataset.
 
 ---
+
+## Why Build This?
+
+Most people use frameworks like PyTorch or TensorFlow without understanding what's happening underneath. This project builds everything from scratch to show how the math actually works, forward pass, backpropagation, and gradient descent, all by hand.
+
 
 ## How It Works
 
@@ -136,12 +141,6 @@ B = B - learning_rate * dB
 - **NumPy** — all matrix math
 - **Pandas** — loading the CSV dataset
 - **Matplotlib** — visualizing predictions
-
----
-
-## Why Build This?
-
-Most people use frameworks like PyTorch or TensorFlow without understanding what's happening underneath. This project builds everything from scratch to show how the math actually works — forward pass, backpropagation, gradient descent, all by hand.
 
 ---
 
